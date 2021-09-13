@@ -7,6 +7,6 @@ namespace SimpleCSharpwebformappln
 {
     public partial class ClassA
     {
-        public int u = 6;
+        public int u = 8;
     }
 }
