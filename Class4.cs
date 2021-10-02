@@ -5,9 +5,7 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public class Class3 
+    public class Class4
     {
-        
-       
     }
 }
