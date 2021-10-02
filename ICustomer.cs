@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace SimpleCSharpwebformappln
 {
-    public partial class ClassA
+    interface ICustomer
     {
-        public int u = 9;
+        string GetSoldItem();
     }
 }
