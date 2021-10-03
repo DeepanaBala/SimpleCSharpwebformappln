@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public  class  Class4: Class3
+    public  class  Class4: OverrideClass
     {
 
         SealedClass seal = new SealedClass();
