@@ -98,7 +98,10 @@ namespace SimpleCSharpwebformappln
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            if (HttpContext.Current.User.Identity.IsAuthenticated)
+            { 
+            
+            }
         }
     }
 }
