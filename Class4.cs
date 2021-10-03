@@ -5,10 +5,10 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public class Class4: Class3
+    public  class  Class4: Class3
     {
-        
 
+        SealedClass seal = new SealedClass();
         public int GetParentclassvariable()
         {
             int y;
@@ -18,6 +18,14 @@ namespace SimpleCSharpwebformappln
             return b;
             //n = 0; Compile time error as this is a constant member
         }
-
+        public override string gg()
+        {
+            return "Yes";
+        }
+        //public override string HiddenMethod()
+        //{
+        //    return "Yes";
+        //}
+        // we cannot override a method with New Keyword
     }
 }

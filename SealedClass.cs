@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public class SealedClass
+    public sealed class  SealedClass
     {
       public  int g = 0;
     }

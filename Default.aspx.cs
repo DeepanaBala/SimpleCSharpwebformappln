@@ -89,6 +89,9 @@ namespace SimpleCSharpwebformappln
 
                 }
             }
+            Class4 cls4 = new Class4();
+            cls4.gg();
+
         }
     }
 }

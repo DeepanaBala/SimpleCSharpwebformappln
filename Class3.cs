@@ -5,16 +5,24 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public class Class3 : SealedClass
+    public class Class3 
     {
         public readonly int year =8;
         public const int n = 6;
         public int b = 9;
         public Class3()
         {
-            year = g;
+            //year = g;
             year = 9;
         }
-        
+        public virtual string gg()
+        {
+            return "Yes";
+        }
+        public new string HiddenMethod()
+        {
+            return "Yes";
+        }
+
     }
 }
