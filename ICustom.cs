@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace SimpleCSharpwebformappln
 {
-    interface IEmployee
+    interface ICustom
     {
-      string Display();
+        string Display();
     }
 }

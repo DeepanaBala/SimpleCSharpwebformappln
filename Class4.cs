@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SimpleCSharpwebformappln
 {
-    public  class  Class4: OverrideClass
+    public  class  Class4: OverrideClass, ICustom,IEmployee
     {
 
         SealedClass seal = new SealedClass();
@@ -21,6 +21,14 @@ namespace SimpleCSharpwebformappln
         public override string gg()
         {
             return "Yes";
+        }
+        string ICustom.Display()
+        {
+            return "A";
+        }
+        string IEmployee.Display()
+        {
+            return "A";
         }
         //public override string HiddenMethod()
         //{

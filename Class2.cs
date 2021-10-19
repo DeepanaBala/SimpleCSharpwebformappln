@@ -11,6 +11,8 @@ namespace SimpleCSharpwebformappln
         public readonly int year;
         public const int n = 6;
         public int b = 9;
+
+        
         //public int u = 9;
         // string IProduct.GetSoldItem()
         //{

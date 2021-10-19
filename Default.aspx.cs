@@ -93,7 +93,9 @@ namespace SimpleCSharpwebformappln
             cls4.gg();
             //Singleton
             Singleton.GetSingleton();
-
+            //
+            ICustom cust = new Class4();
+            cust.Display();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
